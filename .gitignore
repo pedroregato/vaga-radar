@@ -1,0 +1,14 @@
+# Segredos e dados locais
+.env
+n8n_data/
+samples/raw/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/

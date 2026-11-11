@@ -1,0 +1,25 @@
+# Critérios de aderência usados no prompt de triagem.
+# Perfil descrito em termos profissionais genéricos: sem dados pessoais.
+profile:
+  summary: >
+    Engenheiro de IA aplicada e estatístico, sênior, com IA generativa em produção
+    (LLM multi-provedor, agentes, NLP, classificação de documentos), Python, FastAPI,
+    Streamlit, Supabase, LangGraph, e longa experiência em BPM, ITIL e automação de processos.
+  strengths: [Python, LLM, IA generativa, agentes, multiagentes, NLP, RAG, automação de processos,
+              BPM, integração de sistemas, Supabase, FastAPI, Claude Code, consultoria]
+  weak_spots: [TypeScript, Java atual, React, Databricks/Spark, bancos vetoriais em produção,
+               cloud (AWS/Azure/GCP) em produção, fine-tuning]
+location:
+  accept:
+    - "Rio de Janeiro com presencial ou híbrido"
+    - "100% remoto no Brasil"
+  reject:
+    - "presencial ou híbrido fora do Rio de Janeiro"
+language:
+  reject_if: "inglês avançado ou fluente obrigatório, ou outro idioma obrigatório"
+  ok: "inglês para leitura técnica ou como diferencial"
+seniority:
+  target: [sênior, especialista, tech lead, arquiteto, estrategista]
+  reject: [júnior, estágio, trainee]
+  penalize: [pleno]
+domains_bonus: [jurídico, documentos, processos, governança, setor público, energia]
