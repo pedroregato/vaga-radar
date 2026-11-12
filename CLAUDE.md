@@ -16,6 +16,7 @@ Fluxo N8N que lê alertas de vaga no Gmail, pede a um LLM uma nota de aderência
 
 - Proibido no repositório e no histórico: e-mails, telefones, endereços, salário, pretensão, nomes de recrutadores, tokens e chaves.
 - Segredos só em `.env` (fora do git) ou nas credenciais do N8N. `n8n_data/` nunca vai para o git.
+- `config/criteria.local.yaml` (pontos fracos e outros critérios privados) nunca vai para o git.
 - `samples/` só recebe e-mails anonimizados; rascunhos ficam em `samples/raw/` (ignorado).
 - Fluxos do N8N exportados sem credenciais e revisados antes do commit.
 - `pre-commit` com `gitleaks` deve estar instalado (`pre-commit install`).
@@ -27,13 +28,16 @@ docker compose up -d                 # sobe o N8N em http://localhost:5678
 docker compose down                  # para o N8N
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-pytest                               # testes do pacote radar/
+mkdir -p n8n_data                    # só no Linux, antes do primeiro up (ADR-005)
+pytest                               # testes rápidos, sem LLM
+pytest -m llm                        # acurácia do prompt contra samples/ (chama o LLM, tem custo)
+python -m radar.scorer --print-criteria   # critérios mesclados, para colar no nó do N8N
 ```
 
 ## Estado
 
 - [x] M1: esqueleto do repositório
-- [ ] M2: prompt calibrado com amostras
+- [ ] M2: prompt calibrado com amostras (código e 14 amostras sintéticas prontos; v1 acertou 14/14 com deepseek-flash; faltam 10+ amostras reais)
 - [ ] M3: fluxo mínimo Gmail -> LLM -> Supabase
 - [ ] M4: notificação no Telegram
 - [ ] M5: robustez (dedup, retry, tokens)

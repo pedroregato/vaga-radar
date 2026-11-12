@@ -1,0 +1,8 @@
+Vaga: Desenvolvedor(a) Front-end Sênior
+Empresa: Theta E-commerce
+Local: Remoto (Brasil)
+
+Requisitos obrigatórios
+- React e TypeScript avançados
+- Next.js, testes de interface, design systems
+Link: <LINK>

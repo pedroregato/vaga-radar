@@ -1,0 +1,8 @@
+Vaga: Staff AI Engineer (Remote - LATAM)
+Empresa: Nu Labs (EUA)
+Local: Remoto, contratação como PJ
+
+Requirements
+- Fluent English is mandatory
+- Python, LLMs, agents, RAG
+Link: <LINK>

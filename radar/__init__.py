@@ -1,1 +1,5 @@
-"""vaga-radar: calibração do prompt de triagem de vagas (marco M2)."""
+"""vaga-radar: prompt calibration package (ADR-003)."""
+
+PROMPT_VERSION = "score_v1"
+
+__all__ = ["PROMPT_VERSION"]

@@ -1,10 +1,12 @@
 services:
   n8n:
-    image: n8nio/n8n:latest
+    # Versão fixa (ADR-005). Para atualizar: mude N8N_VERSION no .env e teste o fluxo.
+    image: n8nio/n8n:${N8N_VERSION:-2.33.1}
     container_name: vaga-radar-n8n
     restart: unless-stopped
     ports:
-      - "${N8N_PORT:-5678}:5678"
+      # Só localhost: o N8N não fica acessível na rede local (ADR-005).
+      - "127.0.0.1:${N8N_PORT:-5678}:5678"
     environment:
       - N8N_HOST=${N8N_HOST:-localhost}
       - N8N_PORT=5678
@@ -12,4 +14,5 @@ services:
       - GENERIC_TIMEZONE=${GENERIC_TIMEZONE:-America/Sao_Paulo}
       - TZ=${GENERIC_TIMEZONE:-America/Sao_Paulo}
     volumes:
+      # No Linux, crie a pasta antes do primeiro up: mkdir n8n_data
       - ./n8n_data:/home/node/.n8n

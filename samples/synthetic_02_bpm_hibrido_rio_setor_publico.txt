@@ -1,0 +1,12 @@
+Vaga: Especialista em Automação de Processos e IA
+Empresa: Beta Consultoria Pública
+Local: Rio de Janeiro, RJ (híbrido, 2x por semana)
+
+Atuação em projetos de transformação digital para órgãos públicos.
+
+Requisitos
+- Modelagem e automação de processos (BPM, BPMN)
+- Python para automação e integração de sistemas
+- Experiência com IA generativa aplicada a processos
+- Consultoria junto a áreas de negócio
+Link: <LINK>

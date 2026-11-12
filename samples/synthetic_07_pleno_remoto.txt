@@ -1,0 +1,9 @@
+Vaga: Engenheiro(a) de IA Pleno
+Empresa: Eta Saúde Digital
+Local: 100% remoto (Brasil)
+
+Requisitos
+- Python
+- LLMs e RAG
+- Integração de APIs
+Link: <LINK>

@@ -1,0 +1,10 @@
+Vaga: Arquiteto(a) de Soluções de IA
+Empresa: Mu Energia
+Local: Rio de Janeiro, RJ (híbrido)
+
+Requisitos
+- Arquitetura de soluções com LLMs e agentes (LangGraph)
+- Python e integração de sistemas
+- Automação de processos
+- Azure em produção (obrigatório)
+Link: <LINK>

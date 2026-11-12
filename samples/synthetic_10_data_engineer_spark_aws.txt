@@ -1,0 +1,9 @@
+Vaga: Engenheiro(a) de Dados Sênior
+Empresa: Kappa Logística
+Local: Remoto (Brasil)
+
+Requisitos obrigatórios
+- Databricks e Spark em produção
+- AWS (Glue, S3, Redshift) em produção
+- Python e SQL
+Link: <LINK>

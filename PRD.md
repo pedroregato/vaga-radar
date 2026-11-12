@@ -32,8 +32,9 @@ Um usuário só: o Pedro. Sem multiusuário, sem login.
 | RNF-01 | Segredos só em variáveis de ambiente / credenciais do N8N; nada no repositório |
 | RNF-02 | Custo de LLM previsível: um modelo barato por padrão; registrar tokens por chamada |
 | RNF-03 | Fluxo exportado em JSON versionado no git a cada mudança |
-| RNF-04 | Prompt versionado (`prompts/score_v1.md`) e testado contra amostras antes de subir para o fluxo |
-| RNF-05 | Rodar localmente com `docker compose up` em uma máquina Windows/Linux |
+| RNF-04 | Prompt versionado (`prompts/score_v1.md`) e testado contra amostras antes de subir para o fluxo; cada vaga gravada com a versão do prompt que gerou a nota (`prompt_version`) |
+| RNF-05 | Rodar localmente com `docker compose up` em uma máquina Windows/Linux, com o N8N acessível só em `localhost` e versão da imagem fixa |
+| RNF-06 | Critérios privados do perfil (ex.: pontos fracos) ficam fora do repositório, em `config/criteria.local.yaml` |
 
 ## 6. Métricas de sucesso
 
@@ -44,7 +45,7 @@ Um usuário só: o Pedro. Sem multiusuário, sem login.
 ## 7. Marcos
 
 1. **M1 - Esqueleto:** repositório, docker compose do N8N, `.env.example`, tabela no Supabase.
-2. **M2 - Prompt calibrado:** pacote Python com o prompt, 10-20 amostras anonimizadas e rotuladas, teste de acurácia rodando no PyCharm.
+2. **M2 - Prompt calibrado:** pacote Python com o prompt, 10-20 amostras reais anonimizadas e rotuladas (mais amostras sintéticas para cada regra, ADR-009), teste de acurácia rodando no PyCharm.
 3. **M3 - Fluxo mínimo:** Gmail Trigger, extração, LLM, Supabase (sem Telegram).
 4. **M4 - Notificação:** IF + Telegram + marcação de notificada.
 5. **M5 - Robustez:** deduplicação, retry do LLM, registro de tokens, README com prints.

@@ -1,0 +1,14 @@
+[project]
+name = "vaga-radar"
+version = "0.2.0"
+description = "Calibração do prompt de triagem de vagas (ver PRD.md)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# ADR-008: testes que chamam o LLM só rodam com `pytest -m llm`
+addopts = "-m 'not llm'"
+markers = [
+    "llm: chama o LLM de verdade (custo, precisa de chave de API)",
+]

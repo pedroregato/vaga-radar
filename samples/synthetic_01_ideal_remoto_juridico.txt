@@ -1,0 +1,18 @@
+Vaga: Engenheiro(a) de IA Generativa Sênior
+Empresa: Alfa Legaltech
+Local: 100% remoto (Brasil)
+Contratação: CLT
+
+Sobre a vaga
+Buscamos pessoa sênior para construir agentes com LLM que analisam e classificam documentos jurídicos (petições, contratos e decisões).
+
+Requisitos
+- Python avançado
+- Experiência com LLMs em produção (OpenAI, Anthropic ou Gemini)
+- Agentes e orquestração (LangGraph ou similar)
+- RAG e NLP aplicados a documentos
+- Inglês para leitura técnica
+
+Diferenciais
+- FastAPI, Supabase
+Link: <LINK>

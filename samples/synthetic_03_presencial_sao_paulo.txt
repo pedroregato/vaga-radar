@@ -1,0 +1,8 @@
+Vaga: Engenheiro(a) de Machine Learning Sênior - LLM
+Empresa: Gama Fintech
+Local: São Paulo, SP (presencial, 5x por semana)
+
+Requisitos
+- Python, LLMs, agentes, RAG
+- Experiência com IA generativa em produção
+Link: <LINK>

@@ -1,0 +1,9 @@
+Vaga: Estágio em Ciência de Dados e IA
+Empresa: Épsilon Varejo
+Local: Remoto (Brasil)
+
+Requisitos
+- Cursando graduação em Estatística, Computação ou áreas afins
+- Noções de Python
+Bolsa-auxílio e vale-refeição.
+Link: <LINK>

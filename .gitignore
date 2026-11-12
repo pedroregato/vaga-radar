@@ -2,6 +2,7 @@
 .env
 n8n_data/
 samples/raw/
+config/criteria.local.yaml
 
 # Python
 .venv/

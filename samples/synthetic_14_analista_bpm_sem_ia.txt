@@ -1,0 +1,9 @@
+Vaga: Analista de Processos Sênior
+Empresa: Xi Indústria
+Local: Rio de Janeiro, RJ (presencial)
+
+Requisitos
+- Mapeamento e modelagem de processos em BPMN
+- Automação de processos e melhoria contínua
+- Ferramentas de BPM
+Link: <LINK>

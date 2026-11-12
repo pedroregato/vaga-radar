@@ -1,0 +1,5 @@
+# Copie para config/criteria.local.yaml (ignorado pelo git) e preencha.
+# Este arquivo é mesclado por cima de config/criteria.yaml ao montar o prompt (ADR-007):
+# chaves de dicionário são mescladas; listas e textos substituem o valor público.
+profile:
+  weak_spots: [tecnologia A, tecnologia B]

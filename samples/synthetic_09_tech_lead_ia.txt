@@ -1,0 +1,13 @@
+Vaga: Tech Lead de IA Generativa
+Empresa: Iota Seguros
+Local: 100% remoto (Brasil)
+
+Responsabilidades
+- Liderar time que constrói assistentes com LLM e RAG
+- Definir arquitetura de agentes e multiagentes
+
+Requisitos
+- Python, FastAPI
+- LLMs em produção, RAG, agentes
+Diferencial: inglês intermediário
+Link: <LINK>

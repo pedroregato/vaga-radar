@@ -1,1 +1,15 @@
 file,expected_min,expected_max,note
+synthetic_01_ideal_remoto_juridico.txt,8,10,regra: base 5 + strengths (+4) + domínio jurídico (+1)
+synthetic_02_bpm_hibrido_rio_setor_publico.txt,8,10,regra: base 5 + strengths BPM/automação/Python/integração (+4) + setor público (+1)
+synthetic_03_presencial_sao_paulo.txt,0,2,regra: presencial fora do Rio -> máximo 2 (o resto combina)
+synthetic_04_ingles_fluente.txt,0,2,regra: inglês fluente obrigatório -> máximo 2
+synthetic_05_estagio.txt,0,1,regra: estágio -> máximo 1
+synthetic_06_junior_rio.txt,0,1,regra: júnior -> máximo 1
+synthetic_07_pleno_remoto.txt,4,7,regra: base 5 - pleno (2) + strengths Python/LLM/RAG (+3)
+synthetic_08_frontend_react.txt,0,4,"regra: base 5, sem strengths centrais, React e TypeScript obrigatórios (-2)"
+synthetic_09_tech_lead_ia.txt,8,10,regra: base 5 + strengths (+4); tech lead é senioridade-alvo; inglês só diferencial
+synthetic_10_data_engineer_spark_aws.txt,1,5,regra: base 5 + Python (+1) - Databricks/Spark (-1) - AWS em produção (-1)
+synthetic_11_ruido_vendedor.txt,0,3,"ruído sem relação com o perfil: a regra 'começa em 5' da v1 tende a dar 5 aqui; faixa reflete o julgamento esperado, não a regra"
+synthetic_12_arquiteto_energia_azure.txt,7,10,regra: base 5 + strengths (+4) + energia (+1) - Azure em produção (-1)
+synthetic_13_remoto_exterior_ingles.txt,0,2,regra: inglês fluente obrigatório -> máximo 2 (vaga remota para empresa estrangeira)
+synthetic_14_analista_bpm_sem_ia.txt,5,8,regra: base 5 + strengths BPM/automação de processos (+2); presencial no Rio é aceito

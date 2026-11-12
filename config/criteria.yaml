@@ -1,5 +1,6 @@
 # Critérios de aderência usados no prompt de triagem.
 # Perfil descrito em termos profissionais genéricos: sem dados pessoais.
+# Itens privados ficam em config/criteria.local.yaml, mesclado por cima deste arquivo (ADR-007).
 profile:
   summary: >
     Engenheiro de IA aplicada e estatístico, sênior, com IA generativa em produção
@@ -7,8 +8,7 @@ profile:
     Streamlit, Supabase, LangGraph, e longa experiência em BPM, ITIL e automação de processos.
   strengths: [Python, LLM, IA generativa, agentes, multiagentes, NLP, RAG, automação de processos,
               BPM, integração de sistemas, Supabase, FastAPI, Claude Code, consultoria]
-  weak_spots: [TypeScript, Java atual, React, Databricks/Spark, bancos vetoriais em produção,
-               cloud (AWS/Azure/GCP) em produção, fine-tuning]
+  # weak_spots fica em config/criteria.local.yaml, fora do git (ADR-007).
 location:
   accept:
     - "Rio de Janeiro com presencial ou híbrido"

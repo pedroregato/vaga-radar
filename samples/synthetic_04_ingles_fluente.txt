@@ -1,0 +1,8 @@
+Vaga: Senior AI Engineer
+Empresa: Delta Software
+Local: Remoto (Brasil)
+
+Requisitos
+- Inglês fluente obrigatório (reuniões diárias com o time nos EUA)
+- Python, LLMs, agentes multiagentes, RAG
+Link: <LINK>

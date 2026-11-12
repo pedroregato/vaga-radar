@@ -1,0 +1,8 @@
+Vaga: Desenvolvedor(a) Python Júnior
+Empresa: Zeta Tecnologia
+Local: Rio de Janeiro, RJ (híbrido)
+
+Requisitos
+- Até 2 anos de experiência com Python
+- Interesse em IA e automação
+Link: <LINK>
